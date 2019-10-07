@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class oneFive 
+
+{  public static void main (String []args)
+    
+    { 
+        Scanner input = new Scanner(System.in);
+        System.out.println("input your grade");
+        
+        Double numberone = input.nextDouble();
+        
+        if (numberone > 90 && numberone < 100.1)
+        {
+            System.out.print ("You have an A");
+        }
+        
+        else
+        if(numberone > 80 && numberone < 89.99)
+        {System.out.println ("You have a B");
+        }
+        
+        else
+        if(numberone > 70 && numberone < 79.99)
+        {
+            System.out.println ("You have a C");
+        }
+        
+        else
+        if(numberone > 60 && numberone < 69.99)
+        {
+            System.out.println ("You have a D");
+        }
+        
+        else
+        if(numberone < 59.9)
+        {
+            System.out.println("Your grade was unsatisfactory");
+        }
+        
+    
+        
+    }//end of class
+}//end of main method
